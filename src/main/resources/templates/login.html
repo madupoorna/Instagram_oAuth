@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{css/styles.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+</head>
+<body>
+
+<div class="login-page">
+    <div class="form">
+
+        <a class="btn-instagram" href="/redirect">
+            <span class="fa fa-instagram"></span>
+            Sign in with Instagram
+        </a>
+
+        <div class="info-error">
+            <h3 th:text="${errorMessage}"></h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>

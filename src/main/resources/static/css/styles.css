@@ -1,0 +1,33 @@
+.info-success{
+    color: green;
+    padding-top: 10px;
+}
+
+.info-error{
+    color: orangered;
+    padding-top: 10px;
+}
+
+.btn-instagram{
+    background-color: #3f729b;
+    border-color: rgba(0,0,0,0.2);
+    text-align: left;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn-instagram:hover{
+    background-color: #618FB5;
+}
+
+.btn-instagram:active{
+
+}
+
+
